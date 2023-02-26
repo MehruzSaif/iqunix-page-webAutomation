@@ -7,7 +7,7 @@ public class IqunixWebAutomation extends BaseDriver {
 	public String baseUrl = "https://iqunix.store/";
 
 	@Test
-	public void webTest() {
+	public void webTest() throws InterruptedException {
 		driver.get(baseUrl);
 		driver.manage().window().maximize();
 
@@ -16,5 +16,8 @@ public class IqunixWebAutomation extends BaseDriver {
 		} else {
 			System.out.println("Title didn't match");
 		}
+
+		System.out.println(driver.getCurrentUrl());
+		Thread.sleep(5000);
 	}
 }
