@@ -12,7 +12,7 @@ public class LocatorIdentifyOfIqunix extends BaseDriver {
 	public void testLocator() throws InterruptedException {
 		driver.get(url);
 		driver.manage().window().maximize();
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 
 		/*
 		 * XPath
@@ -20,12 +20,12 @@ public class LocatorIdentifyOfIqunix extends BaseDriver {
 		WebElement loginButton = driver.findElement(By.xpath("//a[@class='cb chp db push_side']"));
 		loginButton.click();
 
-		WebElement email = driver.findElement(By.xpath("//input[@id='CustomerEmail']"));
+		WebElement email = driver.findElement(By.name("customer[email]"));
 		email.sendKeys("mehruzsaif007@gmail.com");
 
 		WebElement password = driver.findElement(By.xpath("//input[@id='CustomerPassword']"));
 		password.sendKeys("12345678");
 
-		Thread.sleep(10000);
+		Thread.sleep(5000);
 	}
 }
