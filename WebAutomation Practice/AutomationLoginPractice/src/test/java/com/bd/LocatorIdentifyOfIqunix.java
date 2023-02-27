@@ -1,7 +1,6 @@
 package com.bd;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.By.ByClassName;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
