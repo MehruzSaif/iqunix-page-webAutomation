@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class LocatorIdentifyOfIqunix extends BaseDriver {
-	
+
 	String url = "https://iqunix.store/";
 
 	@Test
@@ -16,14 +16,17 @@ public class LocatorIdentifyOfIqunix extends BaseDriver {
 		Thread.sleep(10000);
 
 		/*
-		 * Xpath
+		 * XPath
 		 */
 		WebElement loginButton = driver.findElement(By.xpath("//a[@class='cb chp db push_side']"));
 		loginButton.click();
-		
-//		WebElement email = driver.findElement(By.id("#nt_login_canvas"));
-//		email.sendKeys("mehruzsaif007@gmail.com");
-		
+
+		WebElement email = driver.findElement(By.xpath("//input[@id='CustomerEmail']"));
+		email.sendKeys("mehruzsaif007@gmail.com");
+
+		WebElement password = driver.findElement(By.xpath("//input[@id='CustomerPassword']"));
+		password.sendKeys("12345678");
+
 		Thread.sleep(10000);
 	}
 }

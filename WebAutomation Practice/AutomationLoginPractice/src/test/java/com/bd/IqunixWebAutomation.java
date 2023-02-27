@@ -18,6 +18,6 @@ public class IqunixWebAutomation extends BaseDriver {
 		}
 
 		System.out.println(driver.getCurrentUrl());
-		Thread.sleep(5000);
+//		Thread.sleep(5000);
 	}
 }
