@@ -21,6 +21,6 @@ public class OikkoWebAutomation extends BaseDriver {
 		loginButton.click();
 
 		System.out.println(driver.getCurrentUrl());
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 	}
 }
