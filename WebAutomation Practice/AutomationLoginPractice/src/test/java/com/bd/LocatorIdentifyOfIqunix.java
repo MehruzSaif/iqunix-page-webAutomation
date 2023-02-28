@@ -26,6 +26,6 @@ public class LocatorIdentifyOfIqunix extends BaseDriver {
 		WebElement password = driver.findElement(By.xpath("//input[@id='CustomerPassword']"));
 		password.sendKeys("12345678");
 
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 	}
 }
