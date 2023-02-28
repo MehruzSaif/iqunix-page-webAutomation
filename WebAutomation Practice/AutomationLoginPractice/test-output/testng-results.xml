@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-27T19:48:43 BDT" name="Default suite" finished-at="2023-02-27T19:48:57 BDT" duration-ms="13520">
+  <suite started-at="2023-02-27T20:58:09 BDT" name="Default suite" finished-at="2023-02-27T20:58:23 BDT" duration-ms="14154">
     <groups>
     </groups>
-    <test started-at="2023-02-27T19:48:43 BDT" name="Default test" finished-at="2023-02-27T19:48:57 BDT" duration-ms="13520">
+    <test started-at="2023-02-27T20:58:09 BDT" name="Default test" finished-at="2023-02-27T20:58:23 BDT" duration-ms="14154">
       <class name="com.bd.OikkoWebAutomation">
-        <test-method is-config="true" signature="start()[pri:0, instance:com.bd.OikkoWebAutomation@6892b3b6]" started-at="2023-02-27T19:48:40 BDT" name="start" finished-at="2023-02-27T19:48:43 BDT" duration-ms="3172" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:com.bd.OikkoWebAutomation@6892b3b6]" started-at="2023-02-27T20:58:06 BDT" name="start" finished-at="2023-02-27T20:58:09 BDT" duration-ms="3193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method signature="webTest()[pri:0, instance:com.bd.OikkoWebAutomation@6892b3b6]" started-at="2023-02-27T19:48:43 BDT" name="webTest" finished-at="2023-02-27T19:48:57 BDT" duration-ms="13499" status="PASS">
+        <test-method signature="webTest()[pri:0, instance:com.bd.OikkoWebAutomation@6892b3b6]" started-at="2023-02-27T20:58:09 BDT" name="webTest" finished-at="2023-02-27T20:58:23 BDT" duration-ms="14132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.bd.OikkoWebAutomation@6892b3b6]" started-at="2023-02-27T19:48:57 BDT" name="close" finished-at="2023-02-27T19:48:57 BDT" duration-ms="144" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.bd.OikkoWebAutomation@6892b3b6]" started-at="2023-02-27T20:58:23 BDT" name="close" finished-at="2023-02-27T20:58:23 BDT" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
